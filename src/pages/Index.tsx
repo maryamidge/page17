@@ -13,13 +13,6 @@ const Index = () => {
             <path d="M15 18L9 12L15 6" stroke="#0A3149" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
         </div>
-        <div className="flex-1 flex justify-center">
-          <img
-            src="https://api.builder.io/api/v1/image/assets/47f0c1c46367453ead2af9745b22e2c0/4a4ac837597a4c8bddf61876df444c8d4d6c26be?placeholderIfAbsent=true"
-            className="aspect-[1] object-contain w-10"
-            alt="Profile avatar"
-          />
-        </div>
       </header>
 
       <CreateProfileForm />
