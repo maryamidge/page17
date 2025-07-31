@@ -8,7 +8,7 @@ interface FormSectionProps {
 
 export const FormSection: React.FC<FormSectionProps> = ({ title, description, children }) => {
   return (
-    <section className="self-center w-full max-w-[396px] mt-6">
+    <section className="w-full max-w-[396px] mt-6 mx-auto">
       <header className="w-full">
         <h2 className="text-[#0A3149] text-base font-[590]">
           {title}

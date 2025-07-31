@@ -131,10 +131,10 @@ export const CreateProfileForm: React.FC = () => {
         </FormField>
       </FormSection>
 
-      <div className="justify-center items-stretch flex w-full flex-col bg-[#F8F1EC] mt-[34px]">
+      <div className="justify-center items-center flex w-full flex-col bg-[#F8F1EC] mt-[34px] px-4">
         <button
           type="submit"
-          className="bg-[rgba(181,69,61,1)] shadow-[0px_4px_4px_rgba(190,92,85,0.42)] self-center flex min-h-12 w-full max-w-[396px] items-center gap-2 text-base text-[rgba(248,241,236,1)] font-semibold text-center uppercase justify-center pl-[130px] pr-[129px] py-3 rounded-lg hover:bg-[rgba(171,59,51,1)] transition-colors focus:outline-none focus:ring-2 focus:ring-[rgba(181,69,61,0.5)] focus:ring-offset-2"
+          className="bg-[rgba(181,69,61,1)] shadow-[0px_4px_4px_rgba(190,92,85,0.42)] flex min-h-12 w-full max-w-[396px] items-center gap-2 text-base text-[rgba(248,241,236,1)] font-semibold text-center uppercase justify-center py-3 rounded-lg hover:bg-[rgba(171,59,51,1)] transition-colors focus:outline-none focus:ring-2 focus:ring-[rgba(181,69,61,0.5)] focus:ring-offset-2"
         >
           <span className="self-stretch my-auto">See My Matches</span>
         </button>
