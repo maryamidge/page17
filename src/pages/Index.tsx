@@ -4,7 +4,7 @@ import { CreateProfileForm } from '@/components/CreateProfileForm';
 
 const Index = () => {
   return (
-    <main className="flex max-w-[480px] w-full flex-col overflow-hidden items-stretch bg-[#F8F1EC] mx-auto min-h-screen">
+    <main className="flex w-[428px] h-[932px] flex-col overflow-y-auto items-stretch bg-[#F8F1EC] mx-auto">
       <StatusBar />
       
       <header className="items-start relative flex min-h-11 gap-4 bg-[#F8F1EC] px-4">

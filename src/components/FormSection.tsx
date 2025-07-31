@@ -17,7 +17,7 @@ export const FormSection: React.FC<FormSectionProps> = ({ title, description, ch
           {description}
         </p>
       </header>
-      <div className="items-stretch shadow-[2px_0_20px_0_rgba(24,57,107,0.05)] flex w-full flex-col text-sm mt-4 p-4 rounded-2xl bg-white">
+      <div className="flex p-4 flex-col items-center gap-4 self-stretch rounded-2xl bg-gradient-to-b from-white to-white shadow-[2px_0_20px_0_rgba(24,57,107,0.05)] text-sm mt-4">
         {children}
       </div>
     </section>
